@@ -34,4 +34,8 @@
     <dimen name="multi_user_switch_keyguard_margin">22px</dimen>
 
     <dimen name="keyguard_carrier_text_margin">44px</dimen>
+
+    <!-- Height of the battery icon in the status bar. -->
+    <dimen name="status_bar_battery_icon_height">12.5dp</dimen>
+
 </resources>
