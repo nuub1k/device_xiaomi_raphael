@@ -16,4 +16,7 @@
 <resources>
     <!-- Color of the FOD view -->
     <color name="config_fodColor">#00ffffff</color>
+
+    <!-- Show battery icon in the QS Panel instead of in the header -->
+    <bool name="config_batteryInQSPanel">false</bool>
 </resources>
