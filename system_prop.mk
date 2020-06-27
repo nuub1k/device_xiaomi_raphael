@@ -107,6 +107,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
+
 # Vendor
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
