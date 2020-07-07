@@ -72,4 +72,7 @@
 
     <!-- Enable face auth when swiping security view -->
     <bool name="config_faceAuthOnSecurityView">true</bool>
+
+    <!-- Wired/BT headset focus mode -->
+    <bool name="config_deviceRingtoneFocusMode">true</bool>
 </resources>
