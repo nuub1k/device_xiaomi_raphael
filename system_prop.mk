@@ -51,7 +51,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.enable_gl_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.enable_hwc_vds=0 \
     debug.cpurend.vsync=false
@@ -86,7 +85,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_CAM_INTERFACE=1 \
     persist.data.iwlan=1 \
     persist.data.iwlan.ipsec.ap=1 \
-    persist.sys.cust.lte_config=true \
     persist.radio.VT_ENABLE=1 \
     persist.radio.volte.dan_support=true \
     persist.rcs.supported=1 \
